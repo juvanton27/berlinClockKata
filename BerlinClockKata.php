@@ -15,6 +15,6 @@ class BerlinClockKata
 
     public function simple_hour(int $hour, int $minute): int
     {
-        return 0;
+        return $hour;
     }
 }
