@@ -122,6 +122,12 @@ class BerlinClockKataTest extends TestCase
         $this->assertEquals("1, 0, 1, 0, 0", $actual);
     }
 
+    public function test_clock_given00_05_00_shouldReturn1_0_0_1_0(){
+        $actual = $this->actClock(00,05,00);
+
+        $this->assertEquals("1, 0, 0, 1, 0", $actual);
+    }
+
     private function actSimple_minute(int $minutes): int
     {
         return $this->berlinClockKata->simple_minute($minutes);

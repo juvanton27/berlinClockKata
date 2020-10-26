@@ -5,7 +5,7 @@ class BerlinClockKata
 {
     public function simple_minute(int $minute): int
     {
-        return $minute;
+        return $minute%5;
     }
 
     public function bloc_5_minutes(int $minute): int
@@ -32,7 +32,8 @@ class BerlinClockKata
     public function clock(int $hours, int $minutes, int $seconds): string
     {
         return strval($this->seconds($seconds)).", 0, "
-            .strval($this->simple_hour($hours)).", 0, "
+            .strval($this->simple_hour($hours)).", "
+            .strval($this->bloc_5_minutes($minutes)).", "
             .strval($this->simple_minute($minutes));
     }
 }
