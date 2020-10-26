@@ -25,6 +25,7 @@ class BerlinClockKata
 
     public function seconds(int $hour, int $minute, int $second): int
     {
-        return 1;
+        if($second%2 === 0) return 1;
+        return 0;
     }
 }

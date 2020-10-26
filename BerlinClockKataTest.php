@@ -84,7 +84,14 @@ class BerlinClockKataTest extends TestCase
 
     public function test_seconds_given00_00_00_shouldReturn1(){
         $actual = $this->actSeconds(00,00,00);
+
         $this->assertEquals("1", $actual);
+    }
+
+    public function test_seconds_given00_00_01_shouldReturn0(){
+        $actual = $this->actSeconds(00,00,01);
+
+        $this->assertEquals("0", $actual);
     }
 
     private function actSimple_minute(int $hours, int $minutes, int $seconds): int
