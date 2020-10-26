@@ -7,4 +7,9 @@ class BerlinClockKata
     {
         return $minute;
     }
+
+    public function bloc_5_minutes(int $heure, int $minute): int
+    {
+        return 1;
+    }
 }
