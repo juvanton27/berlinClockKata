@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a8a20567-86b2-42eb-8a8b-44a26b6763b7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1jPPGm4IBdlEsg2sTh0i90Lw61g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Semaine 5/FizzBuzz" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="BerlinClockKataTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.3" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <TestRunner class="BerlinClockKataTest" file="$PROJECT_DIR$/BerlinClockKataTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.BerlinClockKataTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8a20567-86b2-42eb-8a8b-44a26b6763b7" name="Default Changelist" comment="" />
+      <created>1603702659919</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603702659919</updated>
+      <workItem from="1603702660950" duration="2051000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="67" y="0" key="#Test_Frameworks" timestamp="1603703018864">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="67" y="0" key="#Test_Frameworks/0.0.1920.1080@0.0.1920.1080" timestamp="1603703018864" />
+    <state x="0" y="0" width="1092" height="729" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603703021570">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="0" y="0" width="1092" height="729" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603703021570" />
+    <state x="260" y="28" key="FileChooserDialogImpl" timestamp="1603703143176">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="260" y="28" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1603703143176" />
+    <state width="914" height="311" key="GridCell.Tab.0.bottom" timestamp="1603704656571">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="311" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603704656571" />
+    <state width="914" height="311" key="GridCell.Tab.0.center" timestamp="1603704656571">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="311" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603704656571" />
+    <state width="914" height="311" key="GridCell.Tab.0.left" timestamp="1603704656571">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="311" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603704656571" />
+    <state width="914" height="311" key="GridCell.Tab.0.right" timestamp="1603704656571">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="311" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603704656571" />
+    <state x="215" y="0" key="NewPhpClassDialog" timestamp="1603702832662">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="215" y="0" key="NewPhpClassDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603702832662" />
+    <state x="183" y="17" width="757" height="513" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1603702857881">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="183" y="17" width="757" height="513" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603702857881" />
+  </component>
+</project>
