@@ -31,6 +31,7 @@ class BerlinClockKata
 
     public function clock(int $hours, int $minutes, int $seconds): string
     {
-        return strval($this->seconds($seconds)).", 0, 0, 0, 0";
+        return strval($this->seconds($seconds)).", 0, 0, 0, "
+            .strval($this->simple_minute($minutes));
     }
 }
