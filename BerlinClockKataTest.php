@@ -17,13 +17,13 @@ class BerlinClockKataTest extends TestCase
     //Étape 1
 
     public function test_simples_minutes_given00_00_shouldReturn0(){
-        $actual = $this->actSimple_minute(00,00,00);
+        $actual = $this->actSimple_minute(00);
 
         $this->assertEquals("0", $actual);
     }
 
     public function test_simples_minutes_given00_01_shouldReturn1(){
-        $actual = $this->actSimple_minute(00, 01, 00);
+        $actual = $this->actSimple_minute( 01);
 
         $this->assertEquals("1", $actual);
     }
@@ -31,51 +31,51 @@ class BerlinClockKataTest extends TestCase
     //Étape 2
 
     public function test_bloc_5_minutes_given00_05_shouldReturn1(){
-        $actual = $this->actBloc_5_minutes(00, 05, 00);
+        $actual = $this->actBloc_5_minutes(05);
 
         $this->assertEquals("1", $actual);
     }
 
     public function test_bloc_5_minutes_given00_06_shouldReturn1(){
-        $actual = $this->actBloc_5_minutes(00,06,00);
+        $actual = $this->actBloc_5_minutes(06);
 
         $this->assertEquals("1", $actual);
     }
 
     public function test_bloc_5_minutes_given00_10_shouldReturn2(){
-        $actual = $this->berlinClockKata->bloc_5_minutes(00, 10,00);
+        $actual = $this->berlinClockKata->bloc_5_minutes(10);
 
         $this->assertEquals("2", $actual);
     }
 
     //Étape 3
     public function test_simple_hours_given00_00_shouldReturn0(){
-        $actual = $this->actSimple_hour(00,00,00);
+        $actual = $this->actSimple_hour(00);
 
         $this->assertEquals("0", $actual);
     }
 
     public function test_simple_hours_given01_00_shouldReturn1(){
-        $actual = $this->actSimple_hour(01, 00,00);
+        $actual = $this->actSimple_hour(01);
 
         $this->assertEquals("1", $actual);
     }
 
     //Étape 4
     public function test_bloc_5_hours_given00_00_shouldReturn0(){
-        $actual = $this->actBloc_5_hours(00,00,00);
+        $actual = $this->actBloc_5_hours(00);
 
         $this->assertEquals("0", $actual);
     }
 
     public function test_bloc_5_hours_given01_00_shouldReturn0(){
-        $actual = $this->actBloc_5_hours(01,00,00);
+        $actual = $this->actBloc_5_hours(01);
 
         $this->assertEquals("0", $actual);
     }
 
     public function test_bloc_5_hours_given05_00_shouldReturn1(){
-        $actual = $this->actBloc_5_hours(05,00,00);
+        $actual = $this->actBloc_5_hours(05);
 
         $this->assertEquals("1", $actual);
     }
@@ -83,39 +83,39 @@ class BerlinClockKataTest extends TestCase
     //Étape 5
 
     public function test_seconds_given00_00_00_shouldReturn1(){
-        $actual = $this->actSeconds(00,00,00);
+        $actual = $this->actSeconds(00);
 
         $this->assertEquals("1", $actual);
     }
 
     public function test_seconds_given00_00_01_shouldReturn0(){
-        $actual = $this->actSeconds(00,00,01);
+        $actual = $this->actSeconds(01);
 
         $this->assertEquals("0", $actual);
     }
 
-    private function actSimple_minute(int $hours, int $minutes, int $seconds): int
+    private function actSimple_minute(int $minutes): int
     {
-        return $this->berlinClockKata->simple_minute($hours, $minutes, $seconds);
+        return $this->berlinClockKata->simple_minute($minutes);
     }
 
-    private function actBloc_5_minutes(int $hours, int $minutes, int $seconds): int
+    private function actBloc_5_minutes(int $minutes): int
     {
-        return $this->berlinClockKata->bloc_5_minutes($hours, $minutes, $seconds);
+        return $this->berlinClockKata->bloc_5_minutes($minutes);
     }
 
-    private function actSimple_hour(int $hours, int $minutes, int $seconds): int
+    private function actSimple_hour(int $hours): int
     {
-        return $this->berlinClockKata->simple_hour($hours, $minutes, $seconds);
+        return $this->berlinClockKata->simple_hour($hours);
     }
 
-    private function actBloc_5_hours(int $hours, int $minutes, int $seconds): int
+    private function actBloc_5_hours(int $hours): int
     {
-        return $this->berlinClockKata->bloc_5_hours($hours, $minutes, $seconds);
+        return $this->berlinClockKata->bloc_5_hours($hours);
     }
 
-    private function actSeconds(int $hours, int $minutes, int $seconds): int
+    private function actSeconds(int $seconds): int
     {
-        return $this->berlinClockKata->seconds($hours, $minutes, $seconds);
+        return $this->berlinClockKata->seconds($seconds);
     }
 }
