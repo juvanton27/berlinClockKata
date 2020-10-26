@@ -49,6 +49,7 @@ class BerlinClockKataTest extends TestCase
     }
 
     //Étape 3
+
     public function test_simple_hours_given00_00_shouldReturn0(){
         $actual = $this->actSimple_hour(00);
 
@@ -62,6 +63,7 @@ class BerlinClockKataTest extends TestCase
     }
 
     //Étape 4
+
     public function test_bloc_5_hours_given00_00_shouldReturn0(){
         $actual = $this->actBloc_5_hours(00);
 
@@ -94,6 +96,15 @@ class BerlinClockKataTest extends TestCase
         $this->assertEquals("0", $actual);
     }
 
+    //Étape 6
+
+    public function test_clock_given00_00_00_shouldReturn1_0_0_0_0(){
+        $actual = $this->actClock(00,00,00);
+
+        $this->assertEquals("1, 00, 00, 00, 00", $actual);
+    }
+
+
     private function actSimple_minute(int $minutes): int
     {
         return $this->berlinClockKata->simple_minute($minutes);
@@ -117,5 +128,10 @@ class BerlinClockKataTest extends TestCase
     private function actSeconds(int $seconds): int
     {
         return $this->berlinClockKata->seconds($seconds);
+    }
+
+    private function actClock(int $hours, int $minutes, int $seconds): string
+    {
+        return $this->berlinClockKata->clock($hours, $minutes, $seconds);
     }
 }

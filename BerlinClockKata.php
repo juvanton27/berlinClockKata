@@ -28,4 +28,9 @@ class BerlinClockKata
         if($second%2 === 0) return 1;
         return 0;
     }
+
+    public function clock(int $hours, int $minutes, int $seconds): string
+    {
+        return "1, 00, 00, 00, 00";
+    }
 }
