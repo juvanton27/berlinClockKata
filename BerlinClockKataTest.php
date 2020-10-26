@@ -7,20 +7,23 @@ use PHPUnit\Framework\TestCase;
 
 class BerlinClockKataTest extends TestCase
 {
+    private $berlinClockKata;
+
+    protected function setUp(): void
+    {
+        parent::setUp();
+        $this->berlinClockKata = new BerlinClockKata();
+    }
     //Étape 1
 
     public function test_simples_minutes_given00_00_shouldReturn0(){
-        $berlinClockKata = new BerlinClockKata();
-
-        $actual = $berlinClockKata->simple_minute(00,00);
+        $actual = $this->berlinClockKata->simple_minute(00,00);
 
         $this->assertEquals("0", $actual);
     }
 
     public function test_simples_minutes_given00_01_shouldReturn1(){
-        $berlinClockKata = new BerlinClockKata();
-
-        $actual = $berlinClockKata->simple_minute(00, 01);
+        $actual = $this->berlinClockKata->simple_minute(00, 01);
 
         $this->assertEquals("1", $actual);
     }
@@ -28,25 +31,19 @@ class BerlinClockKataTest extends TestCase
     //Étape 2
 
     public function test_bloc_5_minutes_given00_05_shouldReturn1(){
-        $berlinClockKata = new BerlinClockKata();
-
-        $actual = $berlinClockKata->bloc_5_minutes(00, 05);
+        $actual = $this->berlinClockKata->bloc_5_minutes(00, 05);
 
         $this->assertEquals("1", $actual);
     }
 
     public function test_bloc_5_minutes_given00_06_shouldReturn1(){
-        $berlinClockKata = new BerlinClockKata();
-
-        $actual = $berlinClockKata->bloc_5_minutes(00, 06);
+        $actual = $this->berlinClockKata->bloc_5_minutes(00, 06);
 
         $this->assertEquals("1", $actual);
     }
 
     public function test_bloc_5_minutes_given00_10_shouldReturn2(){
-        $berlinClockKata = new BerlinClockKata();
-
-        $actual = $berlinClockKata->bloc_5_minutes(00, 10);
+        $actual = $this->berlinClockKata->bloc_5_minutes(00, 10);
 
         $this->assertEquals("2", $actual);
     }
