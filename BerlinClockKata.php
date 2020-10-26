@@ -20,6 +20,6 @@ class BerlinClockKata
 
     public function bloc_5_hours(int $hour, int $minute): int
     {
-        return 0;
+        return $hour/5;
     }
 }
