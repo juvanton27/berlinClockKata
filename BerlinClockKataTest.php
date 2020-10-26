@@ -83,22 +83,23 @@ class BerlinClockKataTest extends TestCase
     //Étape 5
 
 
-    public function actSimple_minute(int $hours, int $minutes, int $secondes): int
+
+    private function actSimple_minute(int $hours, int $minutes, int $secondes): int
     {
         return $this->berlinClockKata->simple_minute($hours, $minutes, $secondes);
     }
 
-    public function actBloc_5_minutes(int $hours, int $minutes, int $secondes): int
+    private function actBloc_5_minutes(int $hours, int $minutes, int $secondes): int
     {
         return $this->berlinClockKata->bloc_5_minutes($hours, $minutes, $secondes);
     }
 
-    public function actSimple_hour(int $hours, int $minutes, int $secondes): int
+    private function actSimple_hour(int $hours, int $minutes, int $secondes): int
     {
         return $this->berlinClockKata->simple_hour($hours, $minutes, $secondes);
     }
 
-    public function actBloc_5_hours(int $hours, int $minutes, int $secondes): int
+    private function actBloc_5_hours(int $hours, int $minutes, int $secondes): int
     {
         return $this->berlinClockKata->bloc_5_hours($hours, $minutes, $secondes);
     }
