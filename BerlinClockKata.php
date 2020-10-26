@@ -22,4 +22,9 @@ class BerlinClockKata
     {
         return $hour/5;
     }
+
+    public function seconds(int $hour, int $minute, int $second): int
+    {
+        return 1;
+    }
 }
