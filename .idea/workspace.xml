@@ -63,30 +63,34 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="0" y="0" width="1092" height="729" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603703021570" />
-    <state x="299" y="311" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0" timestamp="1603707341624">
+    <state x="299" y="311" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0" timestamp="1603708900827">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="299" y="311" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0/0.0.1920.1080@0.0.1920.1080" timestamp="1603707341624" />
+    <state x="299" y="311" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0/0.0.1920.1080@0.0.1920.1080" timestamp="1603708900827" />
+    <state x="299" y="245" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1" timestamp="1603708664783">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="299" y="245" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1/0.0.1920.1080@0.0.1920.1080" timestamp="1603708664783" />
     <state x="260" y="28" key="FileChooserDialogImpl" timestamp="1603706971951">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="260" y="28" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1603706971951" />
-    <state width="914" height="291" key="GridCell.Tab.0.bottom" timestamp="1603708356787">
+    <state width="914" height="291" key="GridCell.Tab.0.bottom" timestamp="1603708505342">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603708356787" />
-    <state width="914" height="291" key="GridCell.Tab.0.center" timestamp="1603708356787">
+    <state width="914" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603708505342" />
+    <state width="914" height="291" key="GridCell.Tab.0.center" timestamp="1603708505341">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="291" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603708356787" />
-    <state width="914" height="291" key="GridCell.Tab.0.left" timestamp="1603708356787">
+    <state width="914" height="291" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603708505341" />
+    <state width="914" height="291" key="GridCell.Tab.0.left" timestamp="1603708505340">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="291" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603708356787" />
-    <state width="914" height="291" key="GridCell.Tab.0.right" timestamp="1603708356787">
+    <state width="914" height="291" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603708505340" />
+    <state width="914" height="291" key="GridCell.Tab.0.right" timestamp="1603708505341">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="291" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603708356787" />
+    <state width="914" height="291" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603708505341" />
     <state x="215" y="0" key="NewPhpClassDialog" timestamp="1603702832662">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
