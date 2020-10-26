@@ -42,4 +42,12 @@ class BerlinClockKataTest extends TestCase
 
         $this->assertEquals("1", $actual);
     }
+
+    public function test_bloc_5_minutes_given00_10_shouldReturn2(){
+        $berlinClockKata = new BerlinClockKata();
+
+        $actual = $berlinClockKata->bloc_5_minutes(00, 10);
+
+        $this->assertEquals("2", $actual);
+    }
 }
