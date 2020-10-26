@@ -5,6 +5,7 @@ class BerlinClockKata
 {
     public function simple_minute(int $heure, int $minute): int
     {
-        return "0";
+        if($minute === 1) return 1;
+        return 0;
     }
 }

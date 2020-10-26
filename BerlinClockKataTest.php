@@ -16,4 +16,12 @@ class BerlinClockKataTest extends TestCase
 
         $this->assertEquals("0", $actual);
     }
+
+    public function test_simples_minutes_given00_01_shouldReturn1(){
+        $berlinClockKata = new BerlinClockKata();
+
+        $actual = $berlinClockKata->simple_minute(00, 01);
+
+        $this->assertEquals("1", $actual);
+    }
 }
